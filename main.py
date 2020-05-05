@@ -7,7 +7,7 @@ import numpy as np
 from tensorlayer.cost import cross_entropy_seq, cross_entropy_seq_with_mask
 from tqdm import tqdm
 from sklearn.utils import shuffle
-#from data.twitter import data
+from data import data
 from tensorlayer.models.seq2seq import Seq2seq
 from tensorlayer.models.seq2seq_with_attention import Seq2seqLuongAttention
 import os
@@ -119,6 +119,8 @@ metadata, trainX, trainY, testX, testY = initial_setup(data_corpus)
 
 word2idx = metadata['w2idx'] # dict  word 2 index
 idx2word = metadata['idx2w'] # list index 2 word
+
+src_len = len (trainX)
 
 batch_size = 192
 n_step = src_len // batch_size
