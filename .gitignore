@@ -1,2 +1,9 @@
-
+*__pycache__*
 glove.6B.50d.txt
+data/adhiraj_chats/output 2.csv
+data/adhiraj_chats/output.csv
+data/twitter/chat.txt
+data/adhiraj_chats/chat.txt
+data/adhiraj_chats/idx_a.npy
+data/adhiraj_chats/idx_q.npy
+data/__init__.py
