@@ -4,4 +4,4 @@ and therefore, give us the fact that it is not oneself on the other end.
 We have designed a personalised chatbot which can be trained on one's whatsapp conversations. 
 
 We performed conversational modelling by implementing sequence to sequence networks which use Gated Recurrent Units.
-We have not used attention in our model as the size of our sequences and chats are not too long.
+We have not used attention in our model as the size of our sequences, i.e. the size of all the statement/statements is not very long.
